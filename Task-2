@@ -1,0 +1,53 @@
+let str ="John";
+let blntrue =true;
+let blnfalse =false;
+let nmb = 5;
+// addition string + boolean //
+let sum1 = str+" " +blntrue;
+let sum2 = str+" " +blnfalse
+console.log(sum1);
+console.log(sum2);
+// addition string + number //
+let sum3 = str+ " " + nmb;
+console.log(sum3);
+// addition number + boolean //
+let sum4 = nmb + " " + blntrue;
+let sum5 = nmb + " " + blnfalse;
+console.log(sum4);
+console.log(sum5);
+// multiplication string * boolean //
+let mult1= str* blntrue;
+let mult2= str* blnfalse;
+console.log(mult1);
+console.log(mult2);
+// multiplication string * number
+let mult3 = str * nmb;
+console.log(mult3);
+// multiplication number * boolean //
+let mult4 = nmb * blntrue;
+let mult5 = nmb * blnfalse;
+console.log(mult4);
+console.log(mult5);
+// divide string / boolean //
+let div1= str / blntrue;
+let div2= str / blnfalse;
+console.log(div1);
+console.log(div2);
+// divide string / number //
+let div3 = str / nmb;
+console.log(div3);
+// multiplication number/ boolean //
+let div4 = nmb / blntrue;
+let div5 = nmb / blnfalse;
+console.log(div4);
+console.log(div5);
+// conversion boolean -->string//
+blntrue = String(blntrue);
+console.log (typeof blntrue);
+// conversion string -->number//
+let string = "25";
+string = Number(string);
+console.log (typeof string);
+// conversion boolean -->number//
+blnfalse = Number(blnfalse);
+console.log (typeof blnfalse);
